@@ -44,9 +44,16 @@ group :development, :test do
   gem 'rspec-rails', '3.2.3'
   gem 'spring-commands-rspec'
   gem 'guard-rspec', require: false
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :test do
   gem 'capybara', '2.4.4'
 end
 
+group :development do
+	gem 'pry'
+	gem 'pry-nav'
+
+end
