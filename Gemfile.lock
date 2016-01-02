@@ -107,7 +107,7 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.3)
     multi_json (1.11.2)
-    mysql2 (0.3.19)
+    mysql2 (0.3.20)
     nenv (0.2.0)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
@@ -226,7 +226,7 @@ DEPENDENCIES
   guard-rspec
   jbuilder (~> 2.0)
   jquery-rails
-  mysql2 (= 0.3.19)
+  mysql2 (= 0.3.20)
   pry
   pry-nav
   rails (= 4.2.0)
